@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellness Plans - Aura Fit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-50">
+
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-slate-900 flex items-center">
+                <svg width="32" height="32" viewBox="0 0 24 24" class="text-teal-500 mr-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M12 12c-3 0-5 2.5-5 5s2 5 5 5"></path></svg>
+                Aura Fit
+            </a>
+             <a href="signup.html" class="bg-slate-900 text-white font-semibold px-5 py-2 rounded-lg hover:bg-slate-700 transition-colors">Get Started</a>
+        </div>
+    </header>
+
+    <main class="py-16 md:py-24">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h1 class="text-4xl md:text-5xl font-extrabold">Find Your Path</h1>
+                <p class="text-lg text-slate-500 mt-4 max-w-2xl mx-auto">Select a plan tailored to your specific goals. Each one is a starting point, ready to be personalized by the Aura AI.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Plan 1: Muscle Building -->
+                <a href="plan-muscle-building.html" class="plan-card bg-white p-8 rounded-2xl shadow-sm text-center border-2 border-transparent hover:border-teal-500">
+                    <i data-lucide="dumbbell" class="w-16 h-16 text-teal-500 mx-auto mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-2">Muscle Building</h2>
+                    <p class="text-slate-600">A comprehensive guide to nutrition and strength training designed to help you build lean mass effectively.</p>
+                </a>
+                
+                <!-- Plan 2: Senior Mobility -->
+                <a href="plan-senior-mobility.html" class="plan-card bg-white p-8 rounded-2xl shadow-sm text-center border-2 border-transparent hover:border-sky-500">
+                    <i data-lucide="heart-pulse" class="w-16 h-16 text-sky-500 mx-auto mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-2">Senior Mobility & Wellness</h2>
+                    <p class="text-slate-600">Focus on joint health, balance, and light cardiovascular exercise to maintain an active and vibrant lifestyle.</p>
+                </a>
+                
+                <!-- Plan 3: Calisthenics -->
+                <a href="plan-calisthenics.html" class="plan-card bg-white p-8 rounded-2xl shadow-sm text-center border-2 border-transparent hover:border-indigo-500">
+                    <i data-lucide="move-3d" class="w-16 h-16 text-indigo-500 mx-auto mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-2">Calisthenics Foundation</h2>
+                    <p class="text-slate-600">Master your own bodyweight with a plan focused on foundational strength, control, and impressive skills.</p>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

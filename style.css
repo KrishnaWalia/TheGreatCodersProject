@@ -1,0 +1,74 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8fafc; /* slate-50 */
+}
+.text-gradient {
+    background: linear-gradient(to right, #2dd4bf, #0ea5e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cta-button {
+    background: linear-gradient(to right, #2dd4bf, #0ea5e9);
+    transition: all 0.3s ease;
+}
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(45, 212, 191, 0.3), 0 4px 6px -2px rgba(14, 165, 233, 0.2);
+}
+.feature-card {
+    transition: all 0.3s ease;
+}
+.feature-card:hover {
+    transform: translateY(-5px);
+    border-color: #2dd4bf;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Added for blog and plans */
+.prose {
+    max-width: 65ch;
+    margin-left: auto;
+    margin-right: auto;
+    color: #334155; /* slate-700 */
+}
+.prose h1 {
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: 800; /* font-extrabold */
+    margin-bottom: 1rem;
+}
+.prose h2 {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: 700; /* font-bold */
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e2e8f0; /* slate-200 */
+}
+.prose p {
+    line-height: 1.75;
+    margin-bottom: 1.25rem;
+}
+.prose ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+.prose li {
+    margin-bottom: 0.5rem;
+}
+
+.plan-card {
+    transition: all 0.3s ease;
+}
+.plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}

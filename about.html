@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Aura Fit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-lg sticky top-0 left-0 right-0 z-50 shadow-sm">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-gray-900 flex items-center">
+                <svg width="32" height="32" viewBox="0 0 24 24" class="text-purple-500 mr-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="M12 12c-3 0-5 2.5-5 5s2 5 5 5"></path></svg>
+                Aura Fit
+            </a>
+            <nav id="nav-menu" class="hidden md:flex items-center space-x-8 text-gray-600 font-medium">
+                <a href="index.html#features" class="hover:text-purple-500 transition-colors">Features</a>
+                <a href="plans.html" class="hover:text-purple-500 transition-colors">Plans</a>
+                <a href="blog.html" class="hover:text-purple-500 transition-colors">Blog</a>
+                <a href="community.html" class="hover:text-purple-500 transition-colors">Community</a>
+                <a href="about.html" class="text-purple-500 font-semibold transition-colors">About Us</a>
+            </nav>
+            <div class="hidden md:flex items-center space-x-4">
+                <a href="login.html" class="text-gray-600 font-semibold hover:text-purple-500 transition-colors">Log In</a>
+                <a href="signup.html" class="cta-button text-white font-semibold px-5 py-2 rounded-lg">Get Started</a>
+            </div>
+            <button id="mobile-menu-btn" class="md:hidden text-gray-800">
+                <i data-lucide="menu" class="w-6 h-6"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
+             <a href="index.html#features" class="block py-2 text-gray-600 hover:text-purple-500">Features</a>
+             <a href="plans.html" class="block py-2 text-gray-600 hover:text-purple-500">Plans</a>
+             <a href="blog.html" class="block py-2 text-gray-600 hover:text-purple-500">Blog</a>
+             <a href="community.html" class="block py-2 text-gray-600 hover:text-purple-500">Community</a>
+             <a href="about.html" class="block py-2 text-purple-500 font-semibold">About Us</a>
+             <div class="border-t border-gray-200 mt-4 pt-4">
+                <a href="login.html" class="block text-center w-full py-2 text-gray-600 font-semibold hover:text-purple-500 transition-colors">Log In</a>
+                <a href="signup.html" class="block text-center mt-2 w-full cta-button text-white font-semibold px-5 py-2 rounded-lg">Get Started</a>
+             </div>
+        </div>
+    </header>
+
+    <main class="pt-12">
+        <!-- Hero Section -->
+        <section class="py-20 md:py-24">
+            <div class="container mx-auto px-6 text-center">
+                <i data-lucide="info" class="w-16 h-16 text-purple-500 mx-auto mb-6"></i>
+                <h1 class="text-4xl md:text-5xl font-extrabold mt-4 mb-6 leading-tight text-gray-900">
+                    We're on a mission to personalize wellness.
+                </h1>
+                <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-10">
+                    Aura Fit was born from a simple idea: fitness shouldn't be one-size-fits-all. We are a passionate team of developers and innovators dedicated to creating a truly empathetic and intelligent wellness companion.
+                </p>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="py-20 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Meet The Team</h2>
+                    <p class="text-lg text-gray-600 mt-4 max-w-2xl mx-auto">The minds behind the mission.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 max-w-5xl mx-auto">
+                    
+                    <!-- Team Member: Krishna Walia -->
+                    <div class="text-center fade-in">
+                        <img src="https://placehold.co/200x200/f3f4f6/a855f7?text=KW" class="rounded-full w-48 h-48 mx-auto mb-6 border-4 border-gray-200 shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-900">Krishna Walia</h3>
+                        <p class="text-purple-500 font-semibold mt-1">Team Head & Backend Developer</p>
+                        <p class="text-gray-600 mt-4">
+                            Krishna is the visionary behind Aura Fit. With a passion for scalable systems, he architects the robust backend that powers our AI and ensures a seamless user experience.
+                        </p>
+                    </div>
+
+                    <!-- Team Member: Tanish Garg -->
+                    <div class="text-center fade-in">
+                        <img src="https://placehold.co/200x200/f3f4f6/d946ef?text=TG" class="rounded-full w-48 h-48 mx-auto mb-6 border-4 border-gray-200 shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-900">Tanish Garg</h3>
+                        <p class="text-fuchsia-500 font-semibold mt-1">Database Management</p>
+                        <p class="text-gray-600 mt-4">
+                            Tanish is the guardian of our data. He masterfully designs and manages the databases that securely store user progress and fuel our platform's personalization engine.
+                        </p>
+                    </div>
+                    
+                    <!-- Team Member: Parth Dhingra -->
+                    <div class="text-center fade-in">
+                        <img src="https://placehold.co/200x200/f3f4f6/67e8f9?text=PD" class="rounded-full w-48 h-48 mx-auto mb-6 border-4 border-gray-200 shadow-lg">
+                        <h3 class="text-2xl font-bold text-gray-900">Parth Dhingra</h3>
+                        <p class="text-cyan-500 font-semibold mt-1">Frontend Developer</p>
+                        <p class="text-gray-600 mt-4">
+                           Parth brings Aura Fit to life. He crafts the beautiful, intuitive, and responsive user interface that makes the journey to wellness both engaging and effortless.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+<!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-4">Aura Fit</h3>
+                    <p>Your Personal AI Wellness Ecosystem.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="about.html" class="hover:text-purple-400">About Us</a></li>
+                        <li><a href="community.html" class="hover:text-purple-400">Community</a></li>
+                        <li><a href="plans.html" class="hover:text-purple-400">plans</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-white mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-slate-400 hover:text-white"><i data-lucide="twitter"></i></a>
+                        <a href="#" class="text-slate-400 hover:text-white"><i data-lucide="instagram"></i></a>
+                        <a href="#" class="text-slate-400 hover:text-white"><i data-lucide="facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-slate-700 pt-8 text-center text-slate-500">
+                <p>&copy; 2025 Aura Fit. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
